@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPEXhvXLfi3POqLsY4ePVi9",
+      "authorship_tag": "ABX9TyNXqrkhrhoaUvtHuL7s6zq1",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -36,6 +36,17 @@
         "id": "u_9L-Uaal_by"
       },
       "execution_count": 1,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "iris = pd.read_csv(\"https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv\")"
+      ],
+      "metadata": {
+        "id": "VdEHAms1pfe_"
+      },
+      "execution_count": 3,
       "outputs": []
     }
   ]
